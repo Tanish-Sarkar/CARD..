@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+.card{
+    background-color: #FEF5E7 ;
+    width: 250px;
+    height: 370px;
+    border-radius: 7px;
+}
+.image{
+    padding: 10px;
+}
+.image img{
+    border-radius: 7px;
+
+}
+.tags{
+    padding: 0 24px;
+    cursor: pointer;
+}
+.tags span{
+    color: #fff;
+    background-color: #F0B27A;
+    border: 2px solid #F0B27A;
+    padding: 3px;
+    border-radius: 7px;
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+
+}
+.tags span:hover{
+    
+    background-color: #E59866;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    color: #DC7633;
+
+}
+.content{
+    padding: 13px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.end{
+    text-align: center;
+}
+.end span{
+    color: #fff;
+    background-color: #F0B27A;
+    border: 2px solid #F0B27A;
+    padding: 3px;
+    border-radius: 7px;
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+
+}
+.end span:hover{
+    background-color: #E59866;
+}
